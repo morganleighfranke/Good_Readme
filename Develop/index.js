@@ -50,7 +50,7 @@ const writeToFile = (answers) =>
 function init() {
     promptUser().then((answers) => {
     try {
-      const readme = generateReadme(answers);
+      const readme = generateMarkdown(answers);
       fs.writeFileSync('README.md', readme);
       console.log('Successfully wrote to README.md');
     } catch (error) {
