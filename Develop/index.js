@@ -30,13 +30,18 @@ inquirer.prompt([
   },
   {
     type: 'input',
-    name: 'contributors',
-    message: 'Enter who contributed',
+    name: 'contributing',
+    message: 'Enter all contributing',
   },
   {
     type: 'input',
     name: 'tests',
     message: 'Enter the tests used',
+  },
+  {
+    type: 'input',
+    name: 'questions',
+    message: 'Enter questions',
   },
 ]);
 
