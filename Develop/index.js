@@ -43,12 +43,28 @@ inquirer.prompt([
     name: 'questions',
     message: 'Enter questions',
   },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'Enter your github username',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email and instructions on how you want to be contacted',
+  },
+  {
+    type: 'list',
+    name: 'liscense',
+    message: 'Chose which liscense you want to use',
+    choices: ['MIT', 'GNU AGPLv3', 'GNU GPLv3'],
+  },
 ]);
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-const writeToFile = (answers) =>
-``
+// function writeToFile(fileName, data) {}
+// const writeToFile = (answers) =>
+// ``
 
 
 // TODO: Create a function to initialize app

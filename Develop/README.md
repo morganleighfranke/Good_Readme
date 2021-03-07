@@ -1,7 +1,9 @@
-# ha
+# a
 
   ## Description
-  d
+  a
+
+  ## Liscense
 
   ## table of Contents
   * [Installation](#installation)
@@ -11,17 +13,19 @@
   * [Questions](#questions)
 
   ## Installation
-  s
-
-  ## Liscense
   a
 
+  ## Liscense
+  GNU AGPLv3
+
   ## Contributing
-  d
+  a
   
   ## Tests
-  f
+  a
 
   ## Questions
   a
+  Github profile: https://github.com/morganleighfranke
+  Email: morganleighfranke@gmail.com email me with any questions 
   
