@@ -30,8 +30,16 @@
   Email: morganleighfranke@gmail.com If you would like to contribute or have questions, feel free to email me about the specifics and we can chat.
 
   ## Walkthrough Video
-  <iframe src="https://drive.google.com/file/d/1Mu4xDEHlfLVgcBTV-yodACHEfzYNUvVd/preview" width="640" height="480"></iframe>
+  Link to video: 
+  https://drive.google.com/file/d/1Mu4xDEHlfLVgcBTV-yodACHEfzYNUvVd/view
+  https://drive.google.com/file/d/1RLi2LunWRI-T_5Wn8XFnefEXs0GLZjjA/view
   
-## Screenshots
+  ## Screenshots
+
+  How to open your integrated terminal in the index.js file:
+  ![Alt text](./Develop/assets/screenshots/terminal.png?raw=true "open terminal")
+
+  How to open invoke your readme generator in the integrated terminal using node index.js:
+  ![Alt text](./Develop/assets/screenshots/invoke.png?raw=true "use generator")
 
 

@@ -1,12 +1,7 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-//const newFunctions = require('./utils/newFunctions');
 
-
-
-// TODO: Create an array of questions for user input
 const promptUser = () =>
 inquirer.prompt([
   {
@@ -57,18 +52,11 @@ inquirer.prompt([
   },
 ]);
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-// const writeToFile = (answers) =>
-// ``
-
-
-// TODO: Create a function to initialize app
 function init() {
     promptUser().then((answers) => {
     try {
       const readme = generateMarkdown(answers)
-      //const licsenseMd = renderLiscenselink(answer)
+    
       fs.writeFileSync('README.md', readme);
       console.log('Successfully wrote to README.md');
     } catch (error) {
@@ -76,7 +64,4 @@ function init() {
     }
   });}
 
-//use the above to create a liscense.md file and use the functions to store the files that will 
-
-// Function call to initialize app
 init();
