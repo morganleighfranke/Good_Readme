@@ -1,9 +1,11 @@
-# a
+
+
+  # ha
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
   ## Description
-  a
-
-  ## Liscense
+  ha
 
   ## table of Contents
   * [Installation](#installation)
@@ -13,19 +15,19 @@
   * [Questions](#questions)
 
   ## Installation
-  a
+  ha
 
-  ## Liscense
-  GNU AGPLv3
+  ## License
+  MIT
 
   ## Contributing
-  a
+  ha
   
   ## Tests
-  a
+  ha
 
   ## Questions
-  a
+  ha
   Github profile: https://github.com/morganleighfranke
-  Email: morganleighfranke@gmail.com email me with any questions 
+  Email: mor
   

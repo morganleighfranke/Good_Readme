@@ -2,7 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-const newFunctions = require('./utils/newFunctions');
+//const newFunctions = require('./utils/newFunctions');
+
 
 
 // TODO: Create an array of questions for user input
@@ -22,11 +23,6 @@ inquirer.prompt([
     type: 'input',
     name: 'installation',
     message: 'Enter installation instructions',
-  },
-  {
-    type: 'input',
-    name: 'liscense',
-    message: 'Enter the liscense used',
   },
   {
     type: 'input',
@@ -55,9 +51,9 @@ inquirer.prompt([
   },
   {
     type: 'list',
-    name: 'liscense',
-    message: 'Chose which liscense you want to use',
-    choices: ['MIT', 'GNU AGPLv3', 'GNU GPLv3'],
+    name: 'license',
+    message: 'Chose which license you want to use',
+    choices: ['MIT', 'GNU AGPLv3', 'GNU GPLv3', 'no license'],
   },
 ]);
 
@@ -71,13 +67,16 @@ inquirer.prompt([
 function init() {
     promptUser().then((answers) => {
     try {
-      const readme = generateMarkdown(answers);
+      const readme = generateMarkdown(answers)
+      //const licsenseMd = renderLiscenselink(answer)
       fs.writeFileSync('README.md', readme);
       console.log('Successfully wrote to README.md');
     } catch (error) {
       console.log(error);
     }
   });}
+
+//use the above to create a liscense.md file and use the functions to store the files that will 
 
 // Function call to initialize app
 init();
